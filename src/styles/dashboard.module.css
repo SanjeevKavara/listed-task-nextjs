@@ -1,0 +1,788 @@
+.leftSide {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 30px;
+    background-color: var(--color-black);
+  }
+  .contactUs,
+  .help {
+    position: absolute;
+    top: 87.92%;
+    left: 17.86%;
+    font-size: var(--font-size-sm);
+  }
+  .contactUs {
+    top: 91.84%;
+  }
+  .settings,
+  .users {
+    position: absolute;
+    top: 43.64%;
+    left: 31.43%;
+  }
+  .users {
+    top: 37.08%;
+  }
+  .dashboard1,
+  .schedules,
+  .transactions {
+    position: absolute;
+    top: 30.51%;
+    left: 31.43%;
+  }
+  .dashboard1,
+  .transactions {
+    top: 23.94%;
+  }
+  .dashboard1 {
+    top: 17.37%;
+  }
+  .dashboardIcon,
+  .scheduleIcon,
+  .settingIcon,
+  .transactionIcon,
+  .userIcon {
+    position: absolute;
+    height: 2.2%;
+    width: 6.43%;
+    top: 23.94%;
+    right: 75.71%;
+    bottom: 73.86%;
+    left: 17.86%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .dashboardIcon,
+  .scheduleIcon,
+  .settingIcon,
+  .userIcon {
+    height: 2.07%;
+    width: 6.96%;
+    top: 30.64%;
+    right: 75.45%;
+    bottom: 67.29%;
+    left: 17.59%;
+  }
+  .dashboardIcon,
+  .settingIcon,
+  .userIcon {
+    height: 1.91%;
+    width: 6.43%;
+    top: 17.58%;
+    right: 75.71%;
+    bottom: 80.51%;
+    left: 17.86%;
+  }
+  .settingIcon,
+  .userIcon {
+    width: 6.09%;
+    top: 43.86%;
+    right: 76.06%;
+    bottom: 54.24%;
+  }
+  .userIcon {
+    width: 6.43%;
+    top: 37.29%;
+    right: 75.71%;
+    bottom: 60.81%;
+  }
+  .board,
+  .navigation {
+    position: absolute;
+    top: 6.36%;
+    left: 17.86%;
+    font-size: var(--font-size-17xl);
+  }
+  .navigation {
+    top: 40px;
+    left: 40px;
+    width: 280px;
+    height: 944px;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+  }
+  .card,
+  .card1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .card1 {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-xl);
+    background-color: #f4ecdd;
+  }
+  .card {
+    width: 221.05px;
+    height: 120px;
+  }
+  .b,
+  .totalTransactions1 {
+    position: absolute;
+    top: 45px;
+    left: 25.11px;
+    display: inline-block;
+    width: 126px;
+  }
+  .b {
+    top: 67px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-open-sans);
+    width: 65.26px;
+  }
+  .totalTransactions {
+    position: absolute;
+    top: 129px;
+    left: 637.89px;
+    width: 221.05px;
+    height: 120px;
+    font-family: var(--font-lato);
+  }
+  .card3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: #ddefe0;
+  }
+  .totalRevenues1 {
+    top: 45px;
+    left: 25px;
+    display: inline-block;
+    width: 124px;
+  }
+  .b1,
+  .totalRevenues1,
+  .vectorIcon {
+    position: absolute;
+  }
+  .b1 {
+    top: 67px;
+    left: 25px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    font-family: var(--font-open-sans);
+    width: 124px;
+  }
+  .vectorIcon {
+    height: 20%;
+    width: 11.94%;
+    top: 16.67%;
+    right: 11.6%;
+    bottom: 63.33%;
+    left: 76.45%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .totalRevenues {
+    position: absolute;
+    top: 129px;
+    left: 380px;
+    width: 221.05px;
+    height: 120px;
+    font-family: var(--font-lato);
+  }
+  .card5 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: #efdada;
+  }
+  .b2,
+  .totalLikes1 {
+    position: absolute;
+    top: 45px;
+    left: 25.21px;
+    display: inline-block;
+    width: 81px;
+  }
+  .b2 {
+    top: 67px;
+    left: 25.58px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-open-sans);
+    width: 65.26px;
+  }
+  .vectorIcon1 {
+    position: absolute;
+    height: 20%;
+    width: 10.54%;
+    top: 16.67%;
+    right: 11.56%;
+    bottom: 63.33%;
+    left: 77.9%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .totalLikes {
+    position: absolute;
+    top: 129px;
+    left: 895.79px;
+    width: 221.05px;
+    height: 120px;
+    font-family: var(--font-lato);
+  }
+  .card7 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: #dee0ef;
+  }
+  .vectorIcon2 {
+    position: absolute;
+    height: 20%;
+    width: 16.65%;
+    top: 16.67%;
+    right: 11.39%;
+    bottom: 63.33%;
+    left: 71.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .totalUsers1 {
+    top: 45px;
+    left: 25.58px;
+    display: inline-block;
+    width: 85.26px;
+  }
+  .b3,
+  .totalUsers,
+  .totalUsers1 {
+    position: absolute;
+  }
+  .b3 {
+    top: 67px;
+    left: 25.58px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    font-family: var(--font-open-sans);
+    width: 44.21px;
+  }
+  .totalUsers {
+    top: 129px;
+    left: 1158.95px;
+    width: 221.05px;
+    height: 120px;
+    font-family: var(--font-lato);
+  }
+  .card8,
+  .card9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .card9 {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+  }
+  .card8 {
+    width: 1000px;
+    height: 359px;
+  }
+  .activities,
+  .guest,
+  .mayJune,
+  .user {
+    position: absolute;
+    top: 49px;
+    left: 808px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-lato);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 42px;
+  }
+  .activities,
+  .mayJune,
+  .user {
+    left: 906px;
+    width: 34px;
+  }
+  .activities,
+  .mayJune {
+    top: 30px;
+    left: 40px;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-montserrat);
+    width: 93px;
+  }
+  .mayJune {
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--secondary-text);
+    width: 111px;
+  }
+  .vectorIcon3 {
+    position: absolute;
+    height: 29.41%;
+    width: 6.45%;
+    top: 47.06%;
+    right: 0;
+    bottom: 23.53%;
+    left: 93.55%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .mayJune2021Parent {
+    position: absolute;
+    top: 57px;
+    left: 40px;
+    width: 124px;
+    height: 17px;
+  }
+  .div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-lato);
+    color: var(--secondary-text);
+    text-align: left;
+    display: inline-block;
+    width: 25.34px;
+  }
+  .groupChild {
+    position: absolute;
+    top: 9.5px;
+    left: 39.5px;
+    border-top: 1px solid var(--field-color-darker);
+    box-sizing: border-box;
+    width: 882px;
+    height: 1px;
+  }
+  .group,
+  .parent {
+    position: absolute;
+    left: 0;
+  }
+  .parent {
+    top: 0;
+    width: 921px;
+    height: 17px;
+  }
+  .group {
+    top: 78px;
+  }
+  .container,
+  .group,
+  .groupDiv {
+    width: 921px;
+    height: 17px;
+  }
+  .container {
+    position: absolute;
+    top: 39px;
+    left: 0;
+  }
+  .groupDiv {
+    top: 117px;
+  }
+  .div5,
+  .groupDiv,
+  .parent1 {
+    position: absolute;
+    left: 0;
+  }
+  .parent1 {
+    top: 156px;
+    width: 921px;
+    height: 17px;
+  }
+  .div5 {
+    top: 0;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-lato);
+    color: var(--secondary-text);
+    text-align: left;
+    display: inline-block;
+    width: 9.12px;
+  }
+  .groupChild2 {
+    position: absolute;
+    top: 9.5px;
+    left: 22.27px;
+    border-top: 1px solid var(--field-color-darker);
+    box-sizing: border-box;
+    width: 882px;
+    height: 1px;
+  }
+  .chart,
+  .parent2 {
+    position: absolute;
+    top: 195px;
+    left: 17.23px;
+    width: 903.77px;
+    height: 17px;
+  }
+  .chart {
+    top: 105px;
+    left: 40px;
+    width: 921px;
+    height: 212px;
+  }
+
+ 
+
+  .activitiesCardChild,
+  .activitiesCardItem {
+    position: absolute;
+    top: 54px;
+    left: 787.53px;
+    width: 10px;
+    height: 10px;
+  }
+  .activitiesCardItem {
+    left: 885px;
+  }
+  .activitiesCard,
+  .card10,
+  .child {
+    position: absolute;
+    top: 289px;
+    left: 380px;
+    width: 1000px;
+    height: 359px;
+  }
+  .card10,
+  .child {
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 256px;
+  }
+  .child {
+    top: 3px;
+    width: 11px;
+    height: 11px;
+  }
+  .basicTees {
+    position: absolute;
+    top: 0;
+    left: 21px;
+  }
+  .div7 {
+    top: 22px;
+    left: 21px;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-lato);
+    color: var(--secondary-text);
+  }
+  .div6,
+  .div7,
+  .mayJune1 {
+    position: absolute;
+  }
+  .div6 {
+    top: 72px;
+    left: 244px;
+    width: 98px;
+    height: 36px;
+  }
+  .mayJune1 {
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 97px;
+  }
+  .mayJune2021Wrapper {
+    position: absolute;
+    top: 31px;
+    left: 327px;
+    width: 97px;
+    height: 15px;
+    font-size: var(--font-size-xs);
+    color: var(--secondary-text);
+  }
+  .vectorIcon4 {
+    position: absolute;
+    height: 1.95%;
+    width: 1.67%;
+    top: 14.45%;
+    right: 8.96%;
+    bottom: 83.59%;
+    left: 89.38%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .div10,
+  .div8 {
+    position: absolute;
+    top: 129px;
+    left: 244px;
+    width: 168px;
+    height: 36px;
+  }
+  .div10 {
+    top: 186px;
+    width: 128px;
+  }
+  .topProducts {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: var(--font-size-lg);
+
+  }
+  .charrt{
+    border-radius: 20px;
+  }
+  
+  .topProductsCard {
+    position: absolute;
+    top: 82px;
+    left: 60px;
+    width: 134px;
+    height: 134px;
+    border-radius: 20px;
+  }
+  .pieChartIcon{
+    position: absolute;
+    top: 82px;
+    left: 60px;
+    
+  }
+  .topProductsCard {
+    top: 688px;
+    left: 380px;
+    width: 480px;
+    height: 256px;
+  }
+  .todaysSchedule {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .meetingWithSuppliers {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    font-size: var(--font-size-sm);
+    color: var(--color-dimgray);
+  }
+  .atSunsetRoad,
+  .div12,
+  .groupChild3 {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+  .atSunsetRoad,
+  .groupChild3 {
+    top: 44px;
+  }
+  .groupChild3 {
+    top: -2.5px;
+    left: -2.5px;
+    border-right: 5px solid #9bdd7c;
+    box-sizing: border-box;
+    width: 5px;
+    height: 71px;
+  }
+  .meetingWithSuppliersFromKuParent {
+    position: absolute;
+    top: 77px;
+    left: 40px;
+    width: 251px;
+    height: 66px;
+    font-family: var(--font-lato);
+  }
+  .seeAll,
+  .vector {
+    position: absolute;
+  }
+  .seeAll {
+    top: 34px;
+    left: 398px;
+    color: var(--secondary-text);
+  }
+  .vector {
+    
+    border: 0;
+    padding: 0;
+
+    height: 1.95%;
+    width: 1.67%;
+    top: 17.97%;
+    right: 5.63%;
+    bottom: 80.08%;
+    left: 92.71%;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+  }
+  .groupChild4 {
+    position: absolute;
+    top: -2.5px;
+    left: -2.5px;
+    border-right: 5px solid #6972c3;
+    box-sizing: border-box;
+    width: 5px;
+    height: 71px;
+  }
+  .checkOperationAtGigaFactorParent {
+    position: absolute;
+    top: 156px;
+    left: 40px;
+    width: 227px;
+    height: 66px;
+    font-family: var(--font-lato);
+  }
+  .schedulesCard {
+    position: absolute;
+    top: 688px;
+    left: 900px;
+    width: 480px;
+    height: 256px;
+    font-size: var(--font-size-xs);
+    color: var(--icon);
+  }
+  .week1,
+  .week2 {
+    position: absolute;
+    top: 0;
+  }
+  .week1 {
+    left: 0;
+    font-family: var(--font-lato);
+  }
+  .week2 {
+    left: 200px;
+  }
+  .chartWeeks,
+  .week3,
+  .week4 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+  }
+  .chartWeeks,
+  .week4 {
+    left: 600px;
+  }
+  .chartWeeks {
+    top: 604px;
+    left: 559px;
+    width: 648px;
+    height: 19px;
+    color: var(--secondary-text);
+    font-family: var(--font-open-sans);
+  }
+  .lineChart1Icon,
+  .lineChart2Icon {
+    position: absolute;
+    top: 424px;
+    left: 459px;
+    width: 880.5px;
+    height: 98px;
+  }
+  .lineChart1Icon {
+    top: 423.5px;
+    width: 879.5px;
+    height: 135px;
+  }
+  .totalTransactionsIcon {
+    position: absolute;
+    height: 20%;
+    width: 10.54%;
+    top: 16.67%;
+    right: 11.56%;
+    bottom: 63.33%;
+    left: 77.9%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .dashboard2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .maskGroupIcon,
+  .searchBar {
+    position: absolute;
+    top: 0;
+    height: 30px;
+  }
+  .searchBar {
+    border: 0;
+    border-radius: 9.5px;
+    padding-left: 14px;
+    font-family: var(--font-lato);
+    font-size: var(--font-size-sm);
+    background-color: white;
+    left: 713px;
+    width: 180px;
+  }
+  .maskGroupIcon {
+    left: 970px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .vectorIcon5 {
+    position: absolute;
+    height: 66.67%;
+    width: 1.8%;
+    top: 16.67%;
+    right: 5.9%;
+    bottom: 16.67%;
+    left: 92.3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .header {
+    position: absolute;
+    top: 60px;
+    left: 380px;
+    width: 1000px;
+    height: 30px;
+    font-size: var(--font-size-5xl);
+  }
+  .dashboard {
+    position: relative;
+    background-color: var(--background);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+  }
+  

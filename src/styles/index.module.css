@@ -1,0 +1,340 @@
+.leftSide,
+.rightSide {
+  position: absolute;
+  top: 0;
+  left: 588px;
+  background-color: var(--background);
+ 
+  height: 1024px;
+}
+.leftSide {
+  left: 0;
+  background-color: var(--color-black);
+  width: 588px;
+}
+.rightSide{
+  width: 852px;
+}
+.board {
+  position: absolute;
+  top: 464px;
+  left: 171px;
+  color: var(--color-white);
+}
+.card,
+.card1,
+.inputField1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background-color: var(--color-white);
+}
+.card,
+.inputField1 {
+  width: 385px;
+  height: 317px;
+}
+.inputField1 {
+  border: 0;
+  background-color: var(--background);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  font-family: 19px;
+}
+.inputField {
+  top: 59px;
+  left: 30px;
+  width: 325px;
+  height: 40px;
+}
+.div,
+.input,
+.inputField {
+  position: absolute;
+}
+.input {
+  border: 0;
+  background-color: var(--field-color-darker);
+  height: 11.24%;
+  width: 84.42%;
+  top: 41.57%;
+  right: 7.79%;
+  bottom: 47.19%;
+  left: 7.79%;
+  border-radius: var(--br-3xs);
+  font-size: 19px;
+}
+.div {
+  top: 44.38%;
+  left: 11.69%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.loginFormChild {
+  position: absolute;
+  height: 5.34%;
+  width: 0.26%;
+  top: 44.52%;
+  right: 68.7%;
+  bottom: 50.14%;
+  left: 31.04%;
+  
+  box-sizing: border-box;
+}
+.buttonPrimary1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+}
+.buttonPrimary,
+.signIn1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 325px;
+  height: 40px;
+}
+.signIn1 {
+  top: 9px;
+  left: 112.58px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  width: 101.96px;
+  height: 21.71px;
+}
+.buttonSignIn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 247px;
+  left: 30px;
+  width: 325px;
+  height: 40px;
+}
+.emailAddress,
+.forgotPassword,
+.email_css,
+.password {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.forgotPassword,
+.email_css,
+.password {
+  top: 69px;
+  left: 45px;
+}
+.forgotPassword,
+.password {
+  top: 119px;
+  left: 30px;
+}
+.forgotPassword {
+  top: 208px;
+  left: 31px;
+  color: var(--link);
+}
+.dontHaveAn {
+  color: var(--secondary-text);
+}
+.registerHere {
+  color: var(--link);
+}
+.noAccount_container {
+  position: absolute;
+  top: 337px;
+  left: 62px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+  text-align: center;
+}
+.loginForm {
+  position: absolute;
+  top: 409px;
+  left: 832px;
+  width: 385px;
+  height: 356px;
+}
+.button,
+.white {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+}
+.white {
+  width: 180px;
+  height: 30px;
+}
+.signInWith {
+  position: absolute;
+  top: 8px;
+  left: 43px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+}
+.googleIcon1 {
+  position: absolute;
+  top: 8px;
+  left: 19px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.button1,
+.googleSignIn,
+.white1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.googleSignIn {
+  background-color: transparent;
+  top: 354px;
+  left: 832px;
+  width: 180px;
+  height: 30px;
+}
+.button1,
+.white1 {
+  top: 0;
+  left: 0;
+}
+.button1 {
+  background-color: var(--color-white);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+}
+.white1 {
+  background-color: transparent;
+  width: 180px;
+  height: 30px;
+}
+.signInWith1 {
+  position: absolute;
+  top: 8px;
+  left: 46px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+}
+.apple1Icon {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  width: 11.5px;
+  height: 14px;
+  overflow: hidden;
+}
+.appleSignIn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 354px;
+  left: 1037px;
+  width: 180px;
+  height: 30px;
+}
+.signIn2,
+.signInTo {
+  position: absolute;
+  left: 832px;
+}
+.signIn2 {
+  top: 260px;
+  font-size: 36px;
+}
+.signInTo {
+  top: 309px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lato);
+}
+.signIn {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 72px;
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .leftSide{
+    width: 200px;
+  }
+  .board{
+    width: 200px;
+    left: 12px;
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  .leftSide{
+    width: 322px;
+
+  }
+  .board{
+    left: 60px;
+
+  }
+  .rightSide{
+    left: 324px;
+  }
+}
