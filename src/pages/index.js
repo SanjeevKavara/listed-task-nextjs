@@ -10,7 +10,7 @@ const { data: session } = useSession();
 // console.log(session);
 
 const lgin = () => {
-  signIn("google", { callbackUrl: "http://localhost:3000/Dashboard" }); 
+  signIn("google", { callbackUrl: "https://listedtask.vercel.app/Dashboard" }); 
   
   
   
